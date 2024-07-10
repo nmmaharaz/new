@@ -1,4 +1,6 @@
 div{
         
         background-image: url(/assets/Hero-bg.png);
+        height: 800px;
+        width: 500px;
 }
