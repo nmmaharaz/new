@@ -1,6 +1,47 @@
-div{
-        
-        background-image: url(/assets/Hero-bg.png);
-        height: 800px;
-        width: 500px;
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 }
+
+.one-div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+}
+
+
+.two-div{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+}
+
+.one{
+        background-color: rebeccapurple;
+        grid-column: span 2;
+}
+
+.two{
+        background-color: orange;
+}
+
+.three{
+        background-color: blue;
+        
+}
+
+.four{
+        background-color: aqua;
+        grid-auto-flow: dense;
+        grid-column: span 2;
+}
+
+.five{
+        background-color: pink;
+        display: none;
+}
+
+.six{
+        background-color: red;
+    
+}
+
